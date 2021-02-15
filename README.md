@@ -36,7 +36,7 @@ prints a new line into the console </br>
 `void ChangeColor(number code)` </br>
 changes the console color to code </br>
 `void NormalColor()` </br>
-changes the console color to code </br>
+sets the console text color to default. https://ss64.com/nt/color.html </br>
 `void SayLine(text msg)` </br>
 says msg followed by a new line. </br>
 `void SayMsg(text msg)` </br>
@@ -69,6 +69,8 @@ closes the program </br>
 waits for user to press a button to continue </br>
 `void ChangeTitle(text title)` </br>
 changes the title of the program </br>
+`text Version()` </br>
+returns the program version
 
 **> cute** </br>
 `void MeimaLove()` </br>
