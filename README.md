@@ -34,9 +34,9 @@ converts hex to decimal  </br>
 `void NewLine()` </br>
 prints a new line into the console </br>
 `void ChangeColor(number code)` </br>
-changes the console color to code </br>
+changes the console color to code  https://ss64.com/nt/color.html</br>
 `void NormalColor()` </br>
-sets the console text color to default. https://ss64.com/nt/color.html </br>
+sets the console text color to default. </br>
 `void SayLine(text msg)` </br>
 says msg followed by a new line. </br>
 `void SayMsg(text msg)` </br>
