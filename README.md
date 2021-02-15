@@ -69,8 +69,6 @@ closes the program </br>
 waits for user to press a button to continue </br>
 `void ChangeTitle(text title)` </br>
 changes the title of the program </br>
-`text Version()` </br>
-returns the current version of deimalang </br>
 
 **> cute** </br>
 `void MeimaLove()` </br>
