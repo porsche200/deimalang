@@ -23,7 +23,7 @@ replace text in txt with a replacement </br>
 prints a random number between x and y </br>
 `number Pow(number x, number y)` </br>
 returns x to the power of y </br>
-`text ToText(number x)` </br>
+`text ToText(any x)` </br>
 converts number x into text. returns null if not possible </br>
 `number ToNumber(text x)` </br>
 converts text x into number. returns null if not possible </br>
@@ -46,7 +46,7 @@ reads a line of text </br>
 `number GetNumber()` </br>
 reads a number. </br>
 `void AskNumber(number correct, text alert)` </br>
-reads a number, checks if it's correct. if it's not, it prints alert and tries again </br>
+reads a number, checks if it's correct. if it's not, it prints alert and tries again. prints and tries again if a number isnt inputted. </br>
 `void AskLine(text correct, text alert)` </br>
 reads a line, checks if it's correct. if it's not, it prints alert and tries again </br>
 `void AskCaseLine(text correct, text alert)` </br>
